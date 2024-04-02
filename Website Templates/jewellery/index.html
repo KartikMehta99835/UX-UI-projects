@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); */
+    </style>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Main/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link href="./assets/css/iconly.css" rel="stylesheet">
+    <link href="./assets/css/iconly-ICONS.css" rel="stylesheet">
+
+    <link href="./assets/js/owl.carousel.css" rel="stylesheet">
+    <link href="./assets/js/owl.theme.default.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>Jewellery</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.scss">
+</head>
+
+<body>
+    <!-- ========================================================================= // HEADER // ===============================================================-->
+<navbar>
+    
+    
+    <input id="menu" type="checkbox">
+    <label class="menu-toggle-trigger" for="menu"></label>
+    <label class="menu-toggle-burger" for="menu"></label>
+
+    <div class="nav">
+        <div class="top-header-ui-wrap">
+            
+            <ul class="nav-right-menu">
+                <li class="search-bar-wrapper"><input id="search" type="search" placeholder="Search..." ng-model="searchText"/><label for="search" class="fa fa-search"></label></li>
+                <li class="nav-item cart-icon">
+                    <a class="nav-link" href="#">
+                        <span class="iconly-Buy icli"></span>
+                    </a>
+                </li>
+
+                <li class="nav-item display_username_header d-flex align-items-center">
+                    <a class="nav-link merc-login-link" href="#"><i class="iconly-Profile icli"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main"></div>
+
+</navbar>
+
+    <header>
+        <div class="container">
+            <!-- ---- // Off canvas  // -->
+            <nav class="navbar offCanvas">
+                <div class="container-fluid">
+                    <div class="navbar-brand" href="#"><a href="#"><img src="./assets/images/logo.png"></a></div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome User</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Elements</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Social</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Media</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-primary" type="submit"><span>Search</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- ====================== -->
+
+
+
+
+
+            <nav class="navbar navbar-expand-lg custom-navbar full-navbar">
+                <div class="container-fluid">
+                    <div class="row w-100">
+                        <div class="col-3">
+                            <div class="navbar-brand" href="#"><a href="#"><img src="./assets/images/logo.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="collapse navbar-collapse navbar-list" id="navbarSupportedContent">
+                                <ul class="navbar-nav custom-navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Elements</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> Social</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Media</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+
+
+    <!-- ==============================Home banner==================== -->
+
+
+    <section class="banner__slider">
+        <div class="slider stick-dots">
+            <div class="slide">
+                <div class="slide__img">
+                    <img src="./assets/images/slider-bg1.jpg" alt="" data-lazy="" class="full-image animated at-md" data-animation-in="zoomInImage" />
+                    <img src="./assets/images/slider-bg1-sm.jpg" alt="" data-lazy="" class="full-image animated at-sm" data-animation-in="zoomInImage" />
+                </div>
+                <div class="slide__content slide__content__left">
+                    <div class="slide__content--headings ">
+                        <span class="animated top-sp" data-animation-in="fadeInRight" data-delay-in="0.2">Classy
+                            Design</span>
+
+                        <h1 class="animated top-title top-h1 custom-heading" data-animation-in="fadeInUp"
+                            data-delay-in="0.3">JEWELLERY FOR THE FEMININE IN YOU</h1>
+                        <span class="animated top-title bottom-sp" data-animation-in="fadeInRight"
+                            data-delay-in="0.2">Take a moment and cherish the grand collection </span>
+
+
+                        <button class="btn btn-secondary button-custom animated top-hb"
+                            data-animation-in="fadeInUp"><label>Shop Now</label></button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__img">
+                    <img src="" alt="" data-lazy="./assets/images/slider-bg2.jpg" class="full-image animated"
+                        data-animation-in="zoomOutImage" />
+                </div>
+                <div class="slide__content slide__content__left">
+                    <div class="slide__content--headings">
+                        <span class="animated top-title top-sp" data-animation-in="fadeInRight"
+                            data-delay-in="0.2">Special Occasion Jewellery</span>
+                        <h1 class="animated top-title custom-heading" data-animation-in="fadeInRight"
+                            data-delay-in="0.2">AMAZING JEWELLERY COLLECTION</h1>
+
+                        <button class="btn btn-primary button-custom animated top-hb"
+                            data-animation-in="fadeInUp"><span>Shop Now</span></button>
+
+                        <!--<button class="btn-success btn button-custom animated text-white" data-animation-in="fadeInUp">Order Now</button>-->
+                    </div>
+                </div>
+            </div>
+            <!--<div class="slide">-->
+            <!--    <div class="slide__img">-->
+            <!--      <img src="" alt="" data-lazy="../assets/images/home-3.jpg" class="full-image animated" data-animation-in="zoomInImage"/>-->
+            <!--    </div>-->
+            <!--    <div class="slide__content slide__content__left">-->
+            <!--      <div class="slide__content--headings">-->
+
+            <!--<span class="animated top-title top-sp" data-animation-in="fadeInRight" data-delay-in="0.2">New Collection</span>-->
+            <!--			<h1 class="animated top-title custom-heading" data-animation-in="fadeInLeft" data-delay-in="0.2">Jozy And<br>Marco</h1>-->
+            <!--				 <span class="animated top-title bottom-sp" data-animation-in="fadeInRight" data-delay-in="0.2">This collection is all about making a statement with vibrant colors and bold finishes. </span>-->
+            <!--				<button class="btn btn-primary button-custom animated top-hb" data-animation-in="fadeInUp">Explore Brand</button>-->
+            <!--<span class="animated title st-33" data-animation-in="fadeInRight">Claim your Fashion</span>-->
+            <!--<button class="btn-light btn button-custom animated" data-animation-in="fadeInUp">Today's Menu</button>-->
+            <!--      </div>-->
+            <!--    </div>-->
+            <!--  </div>-->
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle"
+                fill="none" stroke="currentColor">
+                <circle r="20" cy="22" cx="22" id="test">
+            </symbol>
+        </svg>
+    </section>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", (event) => {
+            $('.slider').slick({
+                autoplay: true,
+                speed: 800,
+                lazyLoad: 'progressive',
+                arrows: true,
+                dots: false,
+                prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+                nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+            }).slickAnimation();
+
+
+
+            $('.slick-nav').on('click touch', function (e) {
+
+                e.preventDefault();
+
+                var arrow = $(this);
+
+                if (!arrow.hasClass('animate')) {
+                    arrow.addClass('animate');
+                    setTimeout(() => {
+                        arrow.removeClass('animate');
+                    }, 1600);
+                }
+
+            });
+        });
+
+    </script>
+    <section class="services-wrapper">
+        <div class="container">
+           
+            <div class="services-wrap">
+                <div class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-2">
+                    <div class="col">
+                        <div class="parent-div">
+                            <div class="service-img-wrap"><img src="./assets/images/on-date.png" alt=""
+                                    class="full-image"></div>
+                            <h5>On-date delevery</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="parent-div">
+                            <div class="service-img-wrap"><img src="./assets/images/certified.png" alt=""
+                                    class="full-image"></div>
+                            <h5>Certified jewellery</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="parent-div">
+                            <div class="service-img-wrap"><img src="./assets/images/easy.png" alt="" class="full-image">
+                            </div>
+                            <h5>Easy returns</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="parent-div">
+                            <div class="service-img-wrap"><img src="./assets/images/elegant.png" alt=""
+                                    class="full-image"></div>
+                            <h5>Elegant designs</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="parent-div">
+                            <div class="service-img-wrap"><img src="./assets/images/secure.png" alt=""
+                                    class="full-image"></div>
+                            <h5>100% Secure payments</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== -->
+    <section class="sliding-wrap">
+        <div class="container">
+            <div class="">
+                <div id="mainBanner " class="carousel slider-box" data-bs-ride="carousel" data-bs-pause="false">
+                    <div class="carousel-inner">
+                        <!--<div class="carousel-indicators">-->
+                        <!--  <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
+                        <!--  <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
+                        <!--  <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
+                        <!--  <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="3" aria-label="Slide 4"></button>-->
+                        <!--  <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="4" aria-label="Slide 5"></button>-->
+                        <!--</div>-->
+                        <div class="carousel-item active" data-bs-interval="7000">
+                            <img src="./assets/images/Product15-1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption px-md-5">
+                                <span>Product</span>
+                                <hr class="  border-light">
+                                <p>Some representative placeholder content for the first slide.</p>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="7000">
+                            <img src="./assets/images/Product15-2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption px-md-5">
+                                <span>Product</span>
+                                <hr class="  border-light">
+                                <p>Some representative placeholder content for the first slide.</p>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="7000">
+                            <img src="./assets/images/Product15-3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption px-md-5">
+                                <span>Product</span>
+                                <hr class="  border-light">
+                                <p>Some representative placeholder content for the first slide.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== -->
+    <section class="brand-we-love">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 p-0">
+                    <div class="sale-box-wrap">
+                        <div class="sale-bg">
+                            <img src="./assets/images/left-hand.png" alt="" class="img-fluid">
+                                <div class="goldsmith-banner-content-bottom">
+                                    <span class="goldsmith-banner-catname">Nose Rings</span>
+                                    <h2 class="goldsmith-banner-title banner-content-item">necklaces</h2>
+                                    <span class="goldsmith-banner-desc banner-content-item">25 NOV - 29 NOV</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 p-0">
+                    <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 h-100">
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0 ">
+                                    <img class="img-fluid" src="./assets/images/ring-1.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0">
+                                    <div class="sale">Sale</div>
+                                    <img class="img-fluid" src="./assets/images/ring-2.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0">
+                                    <img class="img-fluid" src="./assets/images/ring-3.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0">
+                                    <img class="img-fluid" src="./assets/images/ring-4.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0">
+                                    <div class="sale">Sale</div>
+                                    <img class="img-fluid" src="./assets/images/ring-5.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0">
+                                    <img class="img-fluid" src="./assets/images/ring-6.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0">
+                                    <img class="img-fluid" src="./assets/images/ring-7.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="list-img-wrap col-12 p-0 p-0">
+                                    <div class="sale">Sale</div>
+                                    <img class="img-fluid" src="./assets/images/ring-8.jpg" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="list-content-wrapper">
+                                        <div class="content-box-2">
+                                            <p>Chopard</p>
+                                            <h5>Product</h5>
+                                            <!-- --------------PRICE BOX----------- -->
+                                            <div class="price-box">
+                                                <span class="old-price">$190.00</span>
+                                                <del>$240.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== -->
+
+<section class="only-for-bg">
+
+
+    <section class="Featured-items">
+        <div class="container">
+                    <h2 class="text-center">Featured Items</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <div class="carousel-team owl-carousel items-slider owl-carousel owl-theme p-0 owl-loaded owl-drag">
+                        <div class="owl-stage-outer owl-height" style="height: 263.188px;">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-412px, 0px, 0px); transition: all 0.45s ease 0s; width: 2063px;">
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-1.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt0012">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+                                                            <p class="item__price">₹<span>5000.00</span></p>
+                                                        </div>
+                                                        <div class="itembox__details--code"><p>WSRT0012</p></div>
+                                                    </div>
+                                                    <span class="currency-converted d-block" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-2.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wgtrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WGTRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-3.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wgtrt002">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WGTRT002</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-1.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt001">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT001</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-2.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-2.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/Product15-2.jpg" class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <a href="#"><button class="btn btn-secondary"><label>Show details</label></button></a>
+
+                                            </div>
+                                            <div class="inner-block"><div class="slider-top-right"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</section>
+<section class="double-sided-wrap">
+    <div class="container">
+        <div class="double-img-wrap">
+            <img src="./assets/images/time-banner.jpg" alt="" class="full-image">
+            <div class="parent-wrap w-100 h-100">
+                <div class="child-wrap">
+
+                    <div class="child-box-wrap">
+                        <div class="db-wrap">
+                            <h3>DEAL EXPIRES SOON</h3>
+                            <div class="banner__text">
+                                <span>Meaesent maximus est a ligula ultricies, sit amet ornare dui mattis. Donec ac mi dui. Donec commodo ultrices elit eu sodales. Maecenas ut orci hendrerit.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="child-box-wrap">
+                        <div class="countdown-wrap">
+
+                            <div class="coundown-section">
+                                <span id="demo-d" class="timer">101d</span>
+                                <span class="time-details">Days</span>
+                            </div>
+
+                            <div class="coundown-section">
+                                <span id="demo-h" class="timer">23h</span>
+                                <span class="time-details">Hours</span>
+                            </div>
+
+                            <div class="coundown-section">
+                                <span id="demo-m" class="timer">11m</span>
+                                <span class="time-details">Mins</span>
+                            </div>
+
+                            <div class="coundown-section">
+                                <span id="demo-s" class="timer">29s</span>
+                                <span class="time-details">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="skincare-wrap">
+        <div class="container">
+            <div class="skincare-img-wrap">
+                <div class="row w-100">
+                    <div class="col-md-8 ps-0">
+                        <div class="skincare-bg">
+                            <div class="spearl">
+                                <h2>pearl necklace</h2>
+                                <span class="top-sp">browse the collection</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pe-0">
+                        <div class="makeup-bg">
+                            <div class="skincare-content">
+                       
+                                <h2>design <i>for</i> LoVE</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="new-collection">
+        <div class="container">
+            <div class="extra-sp"></div>
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <div class="two-group-wrap">
+                        <div class="second-group">
+                            <img class="grid-banner_block-image" src="./assets/images/heading_animate.png" width="130" height="130">
+                            <img src="./assets/images/product_grid.jpg">
+                        </div>
+                        <div class=" first-group">
+                            <div class="heading-icon container">
+                                <h5 class="text-center">New Design</h5>
+                                <div class="icon-svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="23"
+                                        viewBox="0 0 25 23" width="25">
+                                        <path
+                                            d="m12.503 23h-.006c-.0145-2.592-.0984-4.0809-.5856-5.3063-.8597-2.1625-2.58729-3.8741-4.76994-4.7259-1.49419-.5832-3.3766-.5832-7.14146-.5832 3.76486 0 5.64727 0 7.14146-.5831 2.18265-.8519 3.91024-2.56346 4.76994-4.72596.5886-1.4804.5886-3.34543.5886-7.07554 0 3.73011 0 5.59514.5886 7.07554.8597 2.1625 2.5873 3.87406 4.7699 4.72596 1.4942.5831 3.3766.5831 7.1415.5831-3.7649 0-5.6473 0-7.1415.5832-2.1826.8518-3.9102 2.5634-4.7699 4.7259-.4872 1.2254-.5711 2.7143-.5856 5.3063z"
+                                            fill="#000"></path>
+                                    </svg></div>
+                                <h3>Extraordinary Designs </h3>
+                            </div>
+                            <span class="c-ip-heading__inner">Best Gift For Your Loved One</span>
+                            <div class="btn-wrap"><a href="#"><button
+                                        class="btn btn-primary"><span>Shop Now </span></button></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+            <section class="god-slider">
+                <div class="animated-image-wrap">
+                    <img class="animated-image" src="./assets/images/animate_image.png">
+                </div>
+                            <h2 class="text-center">Best Design Jewels</h2>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.css" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.js"></script>
+        
+                <div class="introcontainer container ">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card ong">
+                                        <img
+                                            src="./assets/images/bd-6.png" />
+                                        <div class="text">
+                                        </div>
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card two">
+                                        <img src="./assets/images/bd-1.png"
+                                            alt="" />
+                                        <div class="text">
+                                        </div>
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card three">
+                                        <img src="./assets/images/bd-2.png"
+                                            alt="" />
+                                        <div class="text">
+                                        </div>
+        
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card four">
+                                        <img src="./assets/images/bd-3.png"
+                                            alt="" />
+                                        <div class="text">
+                                        </div>
+        
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card four">
+                                        <img src="./assets/images/bd-4.png"
+                                            alt="" />
+                                        <div class="text">
+                                        </div>
+        
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card four">
+                                        <img src="./assets/images/bd-5.png"
+                                            alt="" />
+                                        <div class="text">
+                                        </div>
+        
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="card four">
+                                        <img src="./assets/images/bd-6.png"
+                                            alt="" />
+                                        <div class="text">
+                                        </div>
+        
+                                        <div class="title-box">
+                                            <h1>Product</h1>
+                                            <p>"Some product placeholder"</p>
+                                            <div class="seperator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+        
+                        <!-- If we need navigation buttons -->
+                        <!-- <div class="swiper-arrows">
+                            <div class="swiper-button-prev"><span></span></div>
+                            <div class="swiper-button-next"><span></span></div>
+                        </div> -->
+        
+                        <!-- If we need scrollbar -->
+                    </div>
+                </div>
+                <script>
+                    const swiper = new Swiper('.swiper-container', {
+                        speed: 500,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        centeredSlides: true,
+                        paginationClickable: true,
+                        watchSlidesProgress: true,
+                        loop: true,
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+            </section>
+
+
+
+
+
+
+
+
+    <style>
+        .service-wrapper .owl-nav {
+            display: none !important;
+        }
+    </style>
+
+    <!-- Back to top with indicator -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M 50 1 L 99 1 l 0 98 l -98 0 L 1 1 L 50 1" />
+            <!-- For circle shape -->
+            <!-- <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> -->
+        </svg>
+        <svg width="24" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
+            <path d="M15 4H4V1" />
+            <path d="M14.5 4H3.5H0" />
+            <path
+                d="M15.8536 4.35355C16.0488 4.15829 16.0488 3.84171 15.8536 3.64645L12.6716 0.464466C12.4763 0.269204 12.1597 0.269204 11.9645 0.464466C11.7692 0.659728 11.7692 0.976311 11.9645 1.17157L14.7929 4L11.9645 6.82843C11.7692 7.02369 11.7692 7.34027 11.9645 7.53553C12.1597 7.7308 12.4763 7.7308 12.6716 7.53553L15.8536 4.35355ZM15 4.5L15.5 4.5L15.5 3.5L15 3.5L15 4.5Z" />
+        </svg>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            (function ($) {
+                $(document).ready(function () {
+                    var progressPath = document.querySelector(".progress-wrap path");
+                    var pathLength = progressPath.getTotalLength();
+                    progressPath.style.transition = progressPath.style.WebkitTransition = "none";
+                    progressPath.style.strokeDasharray = pathLength + " " + pathLength;
+                    progressPath.style.strokeDashoffset = pathLength;
+                    progressPath.getBoundingClientRect();
+                    progressPath.style.transition = progressPath.style.WebkitTransition =
+                        "stroke-dashoffset 10ms linear";
+                    var updateProgress = function () {
+                        var scroll = $(window).scrollTop();
+                        var height = $(document).height() - $(window).height();
+                        var progress = pathLength - (scroll * pathLength) / height;
+                        progressPath.style.strokeDashoffset = progress;
+                    };
+                    updateProgress();
+                    $(window).scroll(updateProgress);
+                    var offset = 50;
+                    var duration = 550;
+                    jQuery(window).on("scroll", function () {
+                        if (jQuery(this).scrollTop() > offset) {
+                            jQuery(".progress-wrap").addClass("active-progress");
+                        } else {
+                            jQuery(".progress-wrap").removeClass("active-progress");
+                        }
+                    });
+                    jQuery(".progress-wrap").on("click", function (event) {
+                        event.preventDefault();
+                        jQuery("html, body").animate({ scrollTop: 0 }, duration);
+                        return false;
+                    });
+                });
+            })(jQuery);
+
+
+        });
+    </script>
+
+
+
+    <!-- ==================FOOTER================= -->
+
+
+
+    <!-- ========================================================================= // Footer // ===============================================================-->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-3 row-cols-sm-2">
+
+
+                <div class="col">
+                    <div class="navbar-brand" href="#"><a href="#"><img 
+                                src="./assets/images/logo.png"></a></div>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <span class="iconly-Location icli"></span>
+                            <span>1800 Test, Canada, IL 61081</span>
+                        </li>
+                        <li>
+                            <span class="iconly-Call icli"></span>
+                            <span>(800) 468-4332</span>
+                        </li>
+                        <li>
+                            <span class="iconly-Message icli"></span>
+                            <a class="footer-mail" href="mailto:Testmail1234@gmail.com">Testmail1234@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col">
+                    <h6 class="footer-link-label">My Account</h6>
+                    <ul class="footer-links">
+                        <li><a class="ada_screen_text" href="">Login</a></li>
+                        <li><a class="ada_screen_text" href="">Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h6 class="footer-link-label">My Information</h6>
+                    <ul class="footer-links">
+                        <li><a class="ada_screen_text" href="">Contact Us</a></li>
+                        <li><a class="ada_screen_text" href="">Shipping Information</a></li>
+                        <li><a class="ada_screen_text" href="">Store Policy</a></li>
+                        <li><a class="ada_screen_text" href="">Privacy Policy</a></li>
+                        <li><a class="ada_screen_text" href="">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div class="col"></div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+        src="https://static.staging.clowre.io/sarvika-devel/default/stores/20230516084403/static/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+
+    <script
+        src="https://static.staging.clowre.io/sarvika-devel/default/stores/20230516084403/static/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", (event) => {
+            jQuery('.slider').slick({
+                autoplay: true,
+                speed: 800,
+                lazyLoad: 'progressive',
+                arrows: true,
+                dots: false,
+                prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+                nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+            }).slickAnimation();
+
+            jQuery('.slick-nav').on('click touch', function (e) {
+                e.preventDefault();
+                var arrow = $(this);
+                if (!arrow.hasClass('animate')) {
+                    arrow.addClass('animate');
+                    setTimeout(() => {
+                        arrow.removeClass('animate');
+                    }, 1600);
+                }
+
+            });
+        });
+    </script>
+
+    <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.actual/1.0.19/jquery.actual.min.js"></script>
+
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script src="./assets/js/owl.navigation.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                400: {
+                    items: 2,
+                    nav: true
+                },
+
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                },
+                1200: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+
+    <script>
+        
+// // Set the date we're counting down to
+// var countDownDate = new Date("Jan 20, 2024 15:37:25").getTime();
+
+// // Update the count down every 1 second
+// var x = setInterval(function() {
+
+//   // Get today's date and time
+//   var now = new Date().getTime();
+
+//   // Find the distance between now and the count down date
+//   var distance = countDownDate - now;
+
+//   // Time calculations for days, hours, minutes and seconds
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+//   // Display the result in the element with id="demo"
+//   document.getElementById("demo-d").innerHTML = days + "d";
+//   document.getElementById("demo-h").innerHTML = hours + "h";
+//   document.getElementById("demo-m").innerHTML = minutes + "m";
+//   document.getElementById("demo-s").innerHTML = seconds + "s";
+   
+
+//   // If the count down is finished, write some text
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo").innerHTML = "EXPIRED";
+//   }
+// }, 1000);
+    </script>
+</body>
+</html>

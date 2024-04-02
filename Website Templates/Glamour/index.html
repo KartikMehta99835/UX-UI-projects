@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Main/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/iconly.css" rel="stylesheet">
+    <link href="./assets/css/iconly-ICONS.css" rel="stylesheet">
+
+    <link href="./assets/js/owl.carousel.css" rel="stylesheet">
+    <link href="./assets/js/owl.theme.default.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>Glamour</title>
+    <link rel="stylesheet" href="./assets/css/style.scss">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- ========================================================================= // HEADER // ===============================================================-->
+    <header>
+        <div class="container">
+            <!-- ---- // Off canvas  // -->
+            <nav class="navbar offCanvas">
+                <div class="container-fluid">
+                    <div class="navbar-brand" href="#"><a href="#"><img src="./assets/images/logo.png"></a></div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome User</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Elements</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Social</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Media</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- ====================== -->
+            <nav class="navbar navbar-expand-lg custom-navbar full-navbar">
+                <div class="container-fluid">
+                    <div class="row w-100">
+                        <div class="col-3">
+                            <div class="navbar-brand" href="#"><a href="#"><img src="./assets/images/logo.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="collapse navbar-collapse navbar-list" id="navbarSupportedContent">
+                                <ul class="navbar-nav custom-navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Elements</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> Social</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Media</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <ul class="nav-right-menu">
+                                <li class="nav-item dropdown">
+
+                                    <div class="search-box search_bar_container">
+                                        <input type="text" placeholder="Search Products" id="header_search"
+                                            class="header__search--input search-text" onkeydown="searchProduct(event)">
+                                        <a href="javascript:void(0)" onclick="{searchProduct(btn=true)}"
+                                            class="search-btn">
+                                            <i class="ti-search"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item cart-icon">
+                                    <a class="nav-link" href="#">
+                                        <span class="iconly-Buy icli"></span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item display_username_header d-flex align-items-center">
+                                    <a class="nav-link merc-login-link" href="#"><i class="iconly-Profile icli"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+
+
+    <!-- ==============================Home banner==================== -->
+    <section class="hero_banner">
+        <div class="container">
+            <figure>
+                <div class="welcome_text">
+                    <h1 class=" my-3">Fashionista</h1>
+                    <button class="btn btn-secondary"><label>Show
+                        details</label></button>
+                </div>
+
+                <img src="./assets/images/main.jpg" class="img-fluid mx-auto me-0" />
+            </figure>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="text-wrapper text-center">
+                <p>"Fashion is about dressing according to what’s fashionable. Style is more about being yourself."</p>
+                <span>—Oscar de la Renta</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Featured-items">
+        <div class="container">
+            <div class="row justify-content-center pb-3">
+                <div class="col-md-10 heading-section text-center ">
+                    <h2 class="big">Featured Items</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <div class="carousel-team owl-carousel items-slider owl-carousel owl-theme p-0 owl-loaded owl-drag">
+                        <div class="owl-stage-outer owl-height" style="height: 263.188px;">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-412px, 0px, 0px); transition: all 0.45s ease 0s; width: 2063px;">
+                                <div class="owl-item" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt0012"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt0012">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT0012</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted d-block"
+                                                        data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wgtrt003"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wgtrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WGTRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wgtrt002"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wgtrt002">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WGTRT002</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt001"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt001">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT001</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt003"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt003"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 388.5px; margin-right: 24px;">
+                                    <div class="item">
+                                        <div class="itembox">
+                                            <div class="itembox__img">
+                                                <a href="p-wsrt003"><img src="./assets/images/noimage.jpg"
+                                                        class="img-fluid mx-auto"></a>
+                                                <div class="itembox__details">
+                                                    <div class="itembox__details--title">
+                                                        <a href="p-wsrt003">Product</a>
+                                                    </div>
+                                                    <div class="itembox__details--pricecode">
+                                                        <div class="itembox__details--price">
+
+                                                            <p class="item__price">₹
+                                                                <span>5000.00</span>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="itembox__details--code">
+                                                            <p>WSRT003</p>
+                                                        </div>
+                                                    </div>
+                                                    <span class="currency-converted" data-price="5000.00"></span>
+                                                </div>
+                                                <button class="btn btn-secondary"><label>Show
+                                                        details</label></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="best-picks">
+        <div class="container">
+            <h2 class="text-center my-4">Our Best Picks</h2>
+            <div class="row">
+                <div class="col-md-6 p-0">
+                    <div class="pc-wrap">
+                        <div class=" overlay-pc pc-basic pcx-3"><a href="" class="top-notch">View</a><img
+                                class="img-fluid" src="./assets/images/3-ps.jpg">
+                        </div>
+                        <div class=" pc-basic pcx-2">
+                            <!--<img class="img-fluid" src="./assets/images/2-ps.jpg">-->
+                        </div>
+                        <div class=" overlay-pc pc-basic pcx-1"><a href="" class="top-notch">View</a><img
+                                class="img-fluid" src="./assets/images/1-ps.jpg">
+                        </div>
+                        <div class=" overlay-pc pc-basic pcx-4"><a href="" class="top-notch">View</a><img
+                                class="img-fluid" src="./assets/images/4-ps.jpg">
+                        </div>
+                        <div class=" overlay-pc pc-basic pcx-6"><a href="" class="top-notch">View</a><img
+                                class="img-fluid" src="./assets/images/2-ps.jpg">
+                        </div>
+                        <div class=" overlay-pc pc-basic pcx-5"><a href="" class="top-notch">View</a><img
+                                class="img-fluid" src="./assets/images/5-ps.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0">
+                    <div class="overlay-pc h-100 w-100"> <a href="" class="top-notch">View</a> <img class="img-fluid"
+                            src="./assets/images/bg-04.jpg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="men-women-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-12 ">
+                    <div class="men-wrapper wrapper-btn">
+
+                        <img class="h-100 w-100" src="./assets/images/bg-01.jpg">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="women-wrapper">
+                        <img class="h-100 w-100" src="./assets/images//bg-02.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="coundown-wrapper">
+        <div class="timer-box">
+
+            <!-- Positioning -->
+            <div class="position-relative">
+                <!-- Countdown -->
+                <div class="row uk-countdown  time-numbers" data-uk-countdown="date: 2022-08-04T06:24:49+00:00">
+                    <!-- Days -->
+                    <div class="col-3">
+                        <div class="right-border"><span>0</span><span>0</span></div>
+                        <h6 class="">Days</h6>
+                    </div>
+                    <!-- End Days -->
+                    <!-- Hours -->
+                    <div class="col-3">
+                        <div class="uk-countdown-number right-border"><span>0</span><span>0</span></div>
+                        <h6 class="roboto">Hours</h6>
+                    </div>
+                    <div class="col-3">
+                        <div class="uk-countdown-number right-border"><span>0</span><span>0</span></div>
+                        <h6 class="roboto">Minutes</h6>
+                    </div>
+                    <div class="col-3">
+                        <div class="uk-countdown-number"><span>0</span><span>0</span></div>
+                        <h6 class="">Seconds</h6>
+
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-12 text-center">
+                        <h2 class="title-medium">65% off on all items.</h2>
+                        <h6 class="roboto-text">Limited time offer.</h6>
+                        <p class="text-weight-400">Lorem Ipsum has been standard dummy. Dorem Ipsum is simply text of
+                            the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                        <a class="btn btn-small btn-transparent-black sm-display-table sm-margin-left-right-auto xs-no-margin-bottom"
+                            href="#">Start Shopping</a>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <style>
+        .service-wrapper .owl-nav {
+            display: none !important;
+        }
+    </style>
+
+    <!-- Back to top with indicator -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M 50 1 L 99 1 l 0 98 l -98 0 L 1 1 L 50 1" />
+            <!-- For circle shape -->
+            <!-- <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> -->
+        </svg>
+        <svg width="24" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
+            <path d="M15 4H4V1" />
+            <path d="M14.5 4H3.5H0" />
+            <path
+                d="M15.8536 4.35355C16.0488 4.15829 16.0488 3.84171 15.8536 3.64645L12.6716 0.464466C12.4763 0.269204 12.1597 0.269204 11.9645 0.464466C11.7692 0.659728 11.7692 0.976311 11.9645 1.17157L14.7929 4L11.9645 6.82843C11.7692 7.02369 11.7692 7.34027 11.9645 7.53553C12.1597 7.7308 12.4763 7.7308 12.6716 7.53553L15.8536 4.35355ZM15 4.5L15.5 4.5L15.5 3.5L15 3.5L15 4.5Z" />
+        </svg>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            (function ($) {
+                $(document).ready(function () {
+                    var progressPath = document.querySelector(".progress-wrap path");
+                    var pathLength = progressPath.getTotalLength();
+                    progressPath.style.transition = progressPath.style.WebkitTransition = "none";
+                    progressPath.style.strokeDasharray = pathLength + " " + pathLength;
+                    progressPath.style.strokeDashoffset = pathLength;
+                    progressPath.getBoundingClientRect();
+                    progressPath.style.transition = progressPath.style.WebkitTransition =
+                        "stroke-dashoffset 10ms linear";
+                    var updateProgress = function () {
+                        var scroll = $(window).scrollTop();
+                        var height = $(document).height() - $(window).height();
+                        var progress = pathLength - (scroll * pathLength) / height;
+                        progressPath.style.strokeDashoffset = progress;
+                    };
+                    updateProgress();
+                    $(window).scroll(updateProgress);
+                    var offset = 50;
+                    var duration = 550;
+                    jQuery(window).on("scroll", function () {
+                        if (jQuery(this).scrollTop() > offset) {
+                            jQuery(".progress-wrap").addClass("active-progress");
+                        } else {
+                            jQuery(".progress-wrap").removeClass("active-progress");
+                        }
+                    });
+                    jQuery(".progress-wrap").on("click", function (event) {
+                        event.preventDefault();
+                        jQuery("html, body").animate({ scrollTop: 0 }, duration);
+                        return false;
+                    });
+                });
+            })(jQuery);
+
+
+        });
+    </script>
+
+
+
+    <!-- ==================FOOTER================= -->
+
+
+
+    <!-- ========================================================================= // Footer // ===============================================================-->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-3 row-cols-sm-2">
+
+
+                <div class="col">
+                    <div class="navbar-brand" href="#"><a href="#"><img src="./assets/images/logo.png"></a></div>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <span class="iconly-Location icli"></span>
+                            <span>1800 Test, Canada, IL 61081</span>
+                        </li>
+                        <li>
+                            <span class="iconly-Call icli"></span>
+                            <span>(800) 468-4332</span>
+                        </li>
+                        <li>
+                            <span class="iconly-Message icli"></span>
+                            <a class="footer-mail" href="mailto:Testmail1234@gmail.com">Testmail1234@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col">
+                    <h6 class="footer-link-label">My Account</h6>
+                    <ul class="footer-links">
+                        <li><a class="ada_screen_text" href="">Login</a></li>
+                        <li><a class="ada_screen_text" href="">Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h6 class="footer-link-label">My Information</h6>
+                    <ul class="footer-links">
+                        <li><a class="ada_screen_text" href="">Contact Us</a></li>
+                        <li><a class="ada_screen_text" href="">Shipping Information</a></li>
+                        <li><a class="ada_screen_text" href="">Store Policy</a></li>
+                        <li><a class="ada_screen_text" href="">Privacy Policy</a></li>
+                        <li><a class="ada_screen_text" href="">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div class="col"></div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+        src="https://static.staging.clowre.io/sarvika-devel/default/stores/20230516084403/static/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+
+    <script
+        src="https://static.staging.clowre.io/sarvika-devel/default/stores/20230516084403/static/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", (event) => {
+            jQuery('.slider').slick({
+                autoplay: true,
+                speed: 800,
+                lazyLoad: 'progressive',
+                arrows: true,
+                dots: false,
+                prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+                nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+            }).slickAnimation();
+
+            jQuery('.slick-nav').on('click touch', function (e) {
+                e.preventDefault();
+                var arrow = $(this);
+                if (!arrow.hasClass('animate')) {
+                    arrow.addClass('animate');
+                    setTimeout(() => {
+                        arrow.removeClass('animate');
+                    }, 1600);
+                }
+
+            });
+        });
+    </script>
+
+    <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script src="./assets/js/owl.navigation.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                400: {
+                    items: 2,
+                    nav: true
+                },
+
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                },
+                1200: {
+                    items: 6,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+</body>
+
+
+
+
+</html>
